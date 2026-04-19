@@ -47,8 +47,7 @@ const routes = [
         path: "/product/:id", 
         name: "Individual_product",
         component: Individual_product,
-        props: true, 
-        meta: { requiresAuth: true }, 
+        props: true,
       },
       {
         path: "/register",

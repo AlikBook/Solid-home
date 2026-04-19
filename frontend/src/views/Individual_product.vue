@@ -20,7 +20,7 @@
         <p class="description">Description:</p>
         <p>{{ product.description }}</p>
         
-        <div class="add_rating">
+        <div v-if="isLoggedIn" class="add_rating">
           <label for="rating">Rate this product:</label>
           <select v-model="userRating" id="rating">
             <option value="" disabled>Select rating</option>
@@ -51,6 +51,9 @@ export default {
     };
   },
   computed: {
+    isLoggedIn() {
+      return !!localStorage.getItem("user");
+    },
     averageRating() {
       if (this.product && this.product.ratings.length) {
         const total = this.product.ratings.reduce((sum, rating) => sum + rating, 0);

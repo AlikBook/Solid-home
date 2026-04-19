@@ -42,6 +42,12 @@
     },
 
       add_product_to_cart(item) {
+        const token = localStorage.getItem("user");
+        if (!token) {
+          this.$router.push("/login");
+          return;
+        }
+
         const existingProduct = this.cart_products.find((product) => product.id === item.id);
         if(item.quantity_available===item.quantity_cart){
           alert("There are no more products of this kind available")
