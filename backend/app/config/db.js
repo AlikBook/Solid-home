@@ -9,6 +9,7 @@ module.exports = {
     DB: process.env.DB_NAME || "solidhome",
     dialect: "mysql",
     port: process.env.DB_PORT || 3306,
+    ssl: process.env.DB_SSL === "true",
     pool: {
     max: 5,
     min: 0,
