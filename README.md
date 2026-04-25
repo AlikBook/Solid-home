@@ -1,4 +1,4 @@
-# 🛒 Ecommerce Website: **Furniture Store**
+# 🛒 Solid Home - Ecommerce Website: **Furniture Store**
 
 A simple ecommerce platform for buying home furniture — inspired by IKEA.  
 It includes role-based access with key functionalities for each user type.
@@ -25,7 +25,7 @@ It includes role-based access with key functionalities for each user type.
 
 ---
 
-# 🏠 Home Decoration Project Setup
+# 🏠 Solid Home - Home Decoration Project Setup
 
 This guide explains how to set up and run the frontend and backend of the Home Decoration project on your local machine.
 
