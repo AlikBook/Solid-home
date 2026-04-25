@@ -1,5 +1,7 @@
 # 🛒 Solid Home - Ecommerce Website: **Furniture Store**
 
+> **🚀 Live Demo:** [solid-home-nu.vercel.app](https://solid-home-nu.vercel.app/)
+
 A simple ecommerce platform for buying home furniture — inspired by IKEA.  
 It includes role-based access with key functionalities for each user type.
 
